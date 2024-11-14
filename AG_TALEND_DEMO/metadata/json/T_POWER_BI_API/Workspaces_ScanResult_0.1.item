@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendJSON:JSONFileConnection Encoding="UTF-8" JSONFilePath="C:/Users/khaya/OneDrive/Desktop/MyWork/AgilosWork/Toyota/API/workspace_scanResult.json" dataPackage="_9secI_G3Ee6Xoa8hcArnXg" id="_9sNWUPG3Ee6Xoa8hcArnXg" name="Workspaces_ScanResult" readbyMode="JSONPATH" xmi:id="_9secEPG3Ee6Xoa8hcArnXg">
+    <schema AbsoluteXPathQuery="$" LimitBoucle="50" xmi:id="_9secEfG3Ee6Xoa8hcArnXg">
+      <schemaTargets RelativeXPathQuery="workspaces[*].id" TagName="workspace_id" xmi:id="_9secEvG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].name" TagName="workspace_name" xmi:id="_9secE_G3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].type" TagName="workspace_type" xmi:id="_9secFPG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].state" TagName="workspace_state" xmi:id="_9secFfG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].isOnDedicatedCapacity" TagName="workspace_isOnDedicatedCapacity" xmi:id="_9secFvG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].capacityId" TagName="workspace_capacityId" xmi:id="_9secF_G3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].defaultDatasetStorageFormat" TagName="workspace_defaultDatasetStorageFormat" xmi:id="_9secGPG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].reports[*]" TagName="reports___" xmi:id="_9secGfG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].dashboards[*]" TagName="dashboards___" xmi:id="_9secGvG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].datasets[*]" TagName="datasets___" xmi:id="_9secG_G3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].dataflows[*]" TagName="dataflows___" xmi:id="_9secHPG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].datamarts[*]" TagName="datamarts___" xmi:id="_9secHfG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="workspaces[*].users[*]" TagName="users___" xmi:id="_9secHvG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="datasourceInstances[*].datasourceType" TagName="datasourceType" xmi:id="_9secH_G3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="datasourceInstances[*].connectionDetails" TagName="connectionDetails" xmi:id="_9secIPG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="datasourceInstances[*].datasourceId" TagName="datasourceId" xmi:id="_9secIfG3Ee6Xoa8hcArnXg"/>
+      <schemaTargets RelativeXPathQuery="datasourceInstances[*].gatewayId" TagName="gatewayId" xmi:id="_9secIvG3Ee6Xoa8hcArnXg"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_9secEPG3Ee6Xoa8hcArnXg" name="default" xmi:id="_9secI_G3Ee6Xoa8hcArnXg">
+    <ownedElement id="_TLfpwPG1Ee6Xoa8hcArnXg" label="metadata" xmi:id="_9secJPG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="workspace_id" length="40" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secJfG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="workspace_name" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secJvG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="workspace_type" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secJ_G3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="workspace_state" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secKPG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="workspace_isOnDedicatedCapacity" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secKfG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="workspace_capacityId" length="40" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secKvG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="workspace_defaultDatasetStorageFormat" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secK_G3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="reports___" length="645" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secLPG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="dashboards___" length="590" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secLfG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="datasets___" length="2243" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secLvG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="dataflows___" length="765" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secL_G3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="datamarts___" length="931" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secMPG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="users___" length="202" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secMfG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="datasourceType" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secMvG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="connectionDetails" length="75" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secM_G3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="datasourceId" length="40" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secNPG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="gatewayId" length="40" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_9secNfG3Ee6Xoa8hcArnXg" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d011e589-bd9f-40d7-b47b-f3d15047d00d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EYvMRqAUIi158tKGmqUyTbMfCi5rA3/0NnXsQPjgWAtv6doaZfaCbvcykkMJQ33tKE65LuVyRRZC&#13;
+vzg5Caq7Jg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7030d4d8-05bb-45cb-a336-7751d1e12b4f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6GLCPscay1Z67CF4moEx054OpHuzB9pLfumLLsAa+PynbVm9gRH6JeidtDnH9sEgCFwMKfi9/edw&#13;
+jrYZ0QmnFw==</DigestValue></Reference></SignedInfo><SignatureValue>O8Vwgw35WfoQOuAP8oQNNEs9FlPzWUA/4K4RJZLvK+oky0AktQ6KEq1C1p3yrAbJ2qMrzqUHYaTM&#13;
+a8Oe8Nwb+bpVMqnsT1uXiqHqGsGnZin63LTxrmPhZosw/Mdxqrw5dw8qPNFq2Qk/TCPbOiRFQ/AW&#13;
+sZCLxTVPlTnDbWHUcGYNIuauaVhmJvFSh/7qADGl4czpjeGbWxNPIblsMIwkyoNTjqt9iTz7wG0R&#13;
+Qx9g2X/3b/bkB5HkrpR913l/3hdIQgiJZHeeVj7FsCAjG3b1tFml0kfMgOXp4tG3rUWZXNSnTBQL&#13;
+h659cwjiuXh2W41rn+LJhdXYvpVvxoNXdwjfCQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7030d4d8-05bb-45cb-a336-7751d1e12b4f" Target="#_d011e589-bd9f-40d7-b47b-f3d15047d00d"><Timestamp>2024-11-14 09:45:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
