@@ -72,6 +72,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_g-lVQOqyEe-zE-Z7SnlOgA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "AG_TALEND_DEMO:_KH33wPDyEe65l9cyIqRHKQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "AG_TALEND_DEMO:_RaFiEPGrEe6Xoa8hcArnXg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "AG_TALEND_DEMO:_lx1lkPWhEe60ObwtF_rmXg",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_lx1lkPWhEe60ObwtF_rmXg",
     "version" : "0.1",
     "type" : "job"
