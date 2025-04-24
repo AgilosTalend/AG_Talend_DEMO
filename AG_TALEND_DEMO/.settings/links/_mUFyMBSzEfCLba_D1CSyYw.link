@@ -1,0 +1,48 @@
+{
+  "itemId" : "_mUFyMBSzEfCLba_D1CSyYw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_IrVrABS7EfCLba_D1CSyYw",
+    "parameterList" : [ {
+      "id" : "_QZ55MRS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_AdditionalParams"
+    }, {
+      "id" : "_QZ55MxS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Login"
+    }, {
+      "id" : "_QZ55NRS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Password"
+    }, {
+      "id" : "_QZ55NhS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Database"
+    }, {
+      "id" : "_QZ55MhS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Port"
+    }, {
+      "id" : "_QZ55NBS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Server"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_IrVrABS7EfCLba_D1CSyYw",
+    "parameterList" : [ {
+      "id" : "_QZ55MRS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_AdditionalParams"
+    }, {
+      "id" : "_QZ55MhS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Port"
+    }, {
+      "id" : "_QZ55MxS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Login"
+    }, {
+      "id" : "_QZ55NBS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Server"
+    }, {
+      "id" : "_QZ55NRS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Password"
+    }, {
+      "id" : "_QZ55NhS7EfCLba_D1CSyYw",
+      "name" : "Mysql_docker_Database"
+    } ]
+  } ]
+}

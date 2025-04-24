@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_gDUGEBg0EfCeWbOPaHjDBg" name="MariaDB" id="_JMEokBg0EfCeWbOPaHjDBg" label="MariaDB" dataPackage="_yWCbQBhPEfCeWbOPaHjDBg" DatabaseType="MySQL" DriverClass="org.mariadb.jdbc.Driver" URL="jdbc:mariadb://localhost:3306/demo?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MARIADB" Port="3306" Username="root" Password="enc:system.encryption.key.v1:jdgtR/NneOtT7qmDguoy6NhV9zc2SXUzYWfFkdPpCiw6og==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="demo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_gDUGERg0EfCeWbOPaHjDBg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_gD4t0Bg0EfCeWbOPaHjDBg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_gD8YMBg0EfCeWbOPaHjDBg" tag="Status" value=""/>
+    <taggedValue xmi:id="_gD8YMRg0EfCeWbOPaHjDBg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_gD8YMhg0EfCeWbOPaHjDBg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_gD8YMxg0EfCeWbOPaHjDBg" tag="Description" value=""/>
+    <taggedValue xmi:id="_gD8YNBg0EfCeWbOPaHjDBg" tag="Author" value=""/>
+    <taggedValue xmi:id="_gD8YNRg0EfCeWbOPaHjDBg" tag="otherParameter"/>
+    <taggedValue xmi:id="_gEHXUBg0EfCeWbOPaHjDBg" tag="DB ProductName" value="MariaDB"/>
+    <taggedValue xmi:id="_gEHXURg0EfCeWbOPaHjDBg" tag="DB ProductVersion" value="10.6.21-MariaDB-ubu2004"/>
+    <taggedValue xmi:id="_gEHXUhg0EfCeWbOPaHjDBg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_gDUGEhg0EfCeWbOPaHjDBg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_GL-V0BhOEfCeWbOPaHjDBg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_yWCbQBhPEfCeWbOPaHjDBg" name="demo" dataManager="_gDUGEBg0EfCeWbOPaHjDBg"/>
+</xmi:XMI>

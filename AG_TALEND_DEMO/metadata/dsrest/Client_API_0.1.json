@@ -1,0 +1,31 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Client API",
+    "description" : "No description",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "paths" : {
+    "/clients" : {
+      "description" : "Retourne un client",
+      "get" : {
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Client" : {
+        "type" : "integer",
+        "format" : "int32"
+      }
+    }
+  }
+}
