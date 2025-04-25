@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_iEDuIBS4EfCLba_D1CSyYw" name="Carbon_sample" dataPackage="_iEDuIRS4EfCLba_D1CSyYw" Server="Localhost 127.0.0.1" FilePath="C:/Users/bioum/Documents/Perso/Freelancing/Diapo/Agilos/CarbonCatalogueDataDescriptor_2021.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Product Level Data" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Product Level Data:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+    <sheetColumns>X</sheetColumns>
+    <sheetColumns>Y</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_iEDuIRS4EfCLba_D1CSyYw" name="default" dataManager="_iEDuIBS4EfCLba_D1CSyYw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iEDuIhS4EfCLba_D1CSyYw" id="_SYhCUBS4EfCLba_D1CSyYw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuIxS4EfCLba_D1CSyYw" label="_PCF_ID" length="13" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuJBS4EfCLba_D1CSyYw" label="Year_of_reporting" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuJRS4EfCLba_D1CSyYw" label="_Stage_level_CO2e_available" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuJhS4EfCLba_D1CSyYw" label="Product_name__and_functional_unit" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuJxS4EfCLba_D1CSyYw" label="Product_detail" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuKBS4EfCLba_D1CSyYw" label="Company" length="27" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuKRS4EfCLba_D1CSyYw" label="Country__where_company_is_incorporated" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuKhS4EfCLba_D1CSyYw" label="Company_s_GICS_Industry_Group" length="44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuKxS4EfCLba_D1CSyYw" label="Company_s_GICS_Industry" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuLBS4EfCLba_D1CSyYw" label="_Company_s_sector" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuLRS4EfCLba_D1CSyYw" label="Product_weight__kg" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuLhS4EfCLba_D1CSyYw" label="_Source_for_product_weight" length="57" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuLxS4EfCLba_D1CSyYw" label="Product_s_carbon_footprint__PCF__kg_CO2e" length="10" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuMBS4EfCLba_D1CSyYw" label="_Carbon_intensity" length="10" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuMRS4EfCLba_D1CSyYw" label="Protocol_used_for_PCF" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuMhS4EfCLba_D1CSyYw" label="Relative_change_in_PCF_vs_previous" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuMxS4EfCLba_D1CSyYw" label="Company_reported_reason_for_change" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuNBS4EfCLba_D1CSyYw" label="_Change_reason_category" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuNRS4EfCLba_D1CSyYw" label="_Upstream_estimated_from__Operations" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuNhS4EfCLba_D1CSyYw" label="_Upstream_CO2e__fraction_of_total_PCF" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuNxS4EfCLba_D1CSyYw" label="_Operations_CO2e__fraction_of_total_PCF" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuOBS4EfCLba_D1CSyYw" label="_Downstream_CO2e__fraction_of_total_PCF" length="48" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuORS4EfCLba_D1CSyYw" label="_Transport_CO2e__fraction_of_total_PCF" length="55" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuOhS4EfCLba_D1CSyYw" label="_EndOfLife_CO2e__fraction_of_total_PCF" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iEDuOxS4EfCLba_D1CSyYw" label="_Adjustments_to_raw_data__if_any" length="115" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
