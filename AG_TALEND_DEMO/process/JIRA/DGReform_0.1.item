@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="user_pass" prompt="user_pass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;Basic usertochange:passtochange&quot;" internalId="_5fN4IKLuEfC2-_z7ve56dw"/>
+    <contextParameter comment="" name="user_pass" prompt="user_pass?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;poctestuser:6ZMcWrM6lB7T1KKH&quot;" internalId="_5fN4IKLuEfC2-_z7ve56dw"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
@@ -108,7 +108,7 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="auth" id="0"/>
-      <elementValue elementRef="VALUE" value="java.util.Base64.getEncoder().encodeToString(context.user_pass.getBytes())" id="1"/>
+      <elementValue elementRef="VALUE" value="&quot;Basic &quot;+java.util.Base64.getEncoder().encodeToString(context.user_pass.getBytes())" id="1"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -140,7 +140,7 @@
   </node>
   <node componentName="tRESTClient" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTClient_1" show="false"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;https://webgate.ec.europa.eu/srss/rest/api/2/user?username=poctestuser&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;https://webgate.acceptance.ec.europa.eu/srss/rest/api/2/project&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;/&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="CLOSED_LIST" name="CONTENT_TYPE" value="application/xml" show="false"/>
