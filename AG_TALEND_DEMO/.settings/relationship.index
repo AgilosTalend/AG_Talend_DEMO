@@ -46,6 +46,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
     "id" : "_9PlKsKZ4EfCaCMprC97fOA - metadata",
     "version" : "Latest",
     "type" : "schema"

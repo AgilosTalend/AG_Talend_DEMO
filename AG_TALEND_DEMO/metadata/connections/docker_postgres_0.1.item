@@ -12,6 +12,9 @@
     <taggedValue xmi:id="_X0l6cKZ5EfCaCMprC97fOA" tag="DB ProductName" value="PostgreSQL"/>
     <taggedValue xmi:id="_X0l6caZ5EfCaCMprC97fOA" tag="DB ProductVersion" value="17.6 (Debian 17.6-1.pgdg13+1)"/>
     <taggedValue xmi:id="_X0l6cqZ5EfCaCMprC97fOA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_b0JIcKemEfC-u6uXmEX4Og">
+      <query xmi:id="_b0JIcqemEfC-u6uXmEX4Og" id="_b0JIcaemEfC-u6uXmEX4Og" label="jira_issues_final" value="select&#xD;&#xA;jir.*,&#xD;&#xA;split_part(cast(json_array_elements(&quot;INVALID_STATUS&quot;::json-> 0->'executionResults')->>'ruleName' as text), ' - ', 1)  as criticity,&#xD;&#xA;split_part(cast(json_array_elements(&quot;INVALID_STATUS&quot;::json-> 0->'executionResults')->>'ruleName' as text), ' - ', 2)  as ruleName,&#xD;&#xA;json_array_elements(&quot;INVALID_STATUS&quot;::json-> 0->'executionResults')->>'status' as status_rules,&#xD;&#xA;json_array_elements(&quot;INVALID_STATUS&quot;::json-> 0->'executionResults')->>'inputColumn' as inputColumn&#xD;&#xA;from public.jira_issues_rejected jir&#xD;&#xA;order by id;"/>
+    </queries>
     <parameters xmi:id="_X0B5wqZ5EfCaCMprC97fOA" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_X1ItAKZ5EfCaCMprC97fOA" name="postgres" dataManager="_X0B5wKZ5EfCaCMprC97fOA">
