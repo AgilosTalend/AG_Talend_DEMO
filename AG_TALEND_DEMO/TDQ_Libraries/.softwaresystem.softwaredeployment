@@ -3,4 +3,5 @@
   <softwaredeployment:TdSoftwareSystem xmi:id="_I1tr0BS3EfCLba_D1CSyYw" name="MySQL" subtype="MySQL" version="11.6.2-MariaDB-ubu2404"/>
   <softwaredeployment:TdSoftwareSystem xmi:id="_B50T4BS7EfCLba_D1CSyYw" name="MariaDB" subtype="MariaDB" version="11.6.2-MariaDB-ubu2404"/>
   <softwaredeployment:TdSoftwareSystem xmi:id="_b41BUBTAEfCLba_D1CSyYw" name="MariaDB" subtype="MariaDB" version="10.6.21-MariaDB-ubu2004"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_X17XMKZ5EfCaCMprC97fOA" name="PostgreSQL" subtype="PostgreSQL" version="17.6 (Debian 17.6-1.pgdg13+1)"/>
 </xmi:XMI>

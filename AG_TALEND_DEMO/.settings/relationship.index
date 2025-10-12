@@ -38,11 +38,23 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_qwAqMJ43EfCBXNoSBgtyDA",
+    "id" : "_9PlKsKZ4EfCaCMprC97fOA",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_qwAqMJ43EfCBXNoSBgtyDA - metadata",
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9PlKsKZ4EfCaCMprC97fOA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_stg",
     "version" : "Latest",
     "type" : "schema"
   } ]
