@@ -173,11 +173,11 @@
       <column comment="" key="false" length="2147483647" name="field_name" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="field_value" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="issue_url" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="INVALID_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="INVALID_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="2147483647" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="criticity" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="rulename" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="status_rules" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="inputcolumn" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="rulename" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="status_rules" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="inputcolumn" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="1800">
@@ -279,11 +279,11 @@
       <column comment="" key="false" length="2147483647" name="field_name" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="field_value" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="issue_url" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="INVALID_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="INVALID_STATUS" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="2147483647" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="criticity" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="rulename" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="status_rules" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="inputcolumn" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="rulename" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="status_rules" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="inputcolumn" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" defaultValue="" key="false" length="10" name="issue_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -291,11 +291,11 @@
       <column comment="" key="false" length="2147483647" name="field_name" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="field_value" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="issue_url" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="INVALID_STATUS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="INVALID_STATUS" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="2147483647" usefulColumn="true"/>
       <column comment="" key="false" length="2147483647" name="criticity" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="rulename" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="status_rules" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="2147483647" name="inputcolumn" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="rulename" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="status_rules" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="2147483647" name="inputcolumn" nullable="true" pattern="" precision="0" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -1014,7 +1014,7 @@
     <elementParameter field="CLOSED_LIST" name="WEB_APP" value="Data Stewardship"/>
     <elementParameter field="TEXT" name="URL" value="&quot;https://tds.eu.cloud.talend.com/&quot;"/>
     <elementParameter field="PASSWORD" name="TOKEN" value="enc:system.encryption.key.v1:qXsiil0Z83Ft0RK5j5RY0s+pX6I9cN+MB481NwfvmUiiRentxvflMp2jZ2AnmVGsr6+3RdpKtGfQ795xfKITySi2JTiGkS4zR82Fw2XcurhntMmZUv0Kh8QDu0QacA=="/>
-    <elementParameter field="TDS_VERSION" name="TDS_VERSION_VALUE" value="1760476742780"/>
+    <elementParameter field="TDS_VERSION" name="TDS_VERSION_VALUE" value="1760478453429"/>
     <elementParameter field="EXTERNAL" name="CONFIG" value=""/>
     <elementParameter field="TEXT" name="TDS_VERSION_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1076,7 +1076,31 @@
         <ruleParameterMap key="RuleID" value="c76a3911-4c16-4dc0-a561-9395b0c118f9"/>
         <ruleParameterMap key="RuleName" value="MEDIUM - Missing Recipient Beneficiary Authority v2"/>
         <ruleParameterMap key="SemanticTypeVersion"/>
-        <ruleParameterMap key="MatcherID" value="_bGtjIKlFEfC6OIVjhQdNtA"/>
+        <ruleParameterMap key="MatcherID" value="_bk5egKlGEfC6OIVjhQdNtA"/>
+      </dqRuleMatchers>
+      <dqRuleMatchers>
+        <ruleRecords>
+          <Rulekey key="RuleVariableName" value="field_value"/>
+          <Rulekey key="InputColumnIndex" value="3"/>
+          <Rulekey key="InputColumn" value="field_value"/>
+          <Rulekey key="InputColumnOriginalType" value="java.lang.String"/>
+          <Rulekey key="InputColumnDataType" value="STRING"/>
+          <Rulekey key="InputColumnOriginalTypePattern" value=""/>
+          <Rulekey key="ColumnIndex" value=""/>
+        </ruleRecords>
+        <ruleRecords>
+          <Rulekey key="RuleVariableName" value="field_name"/>
+          <Rulekey key="InputColumnIndex" value="2"/>
+          <Rulekey key="InputColumn" value="field_name"/>
+          <Rulekey key="InputColumnOriginalType" value="java.lang.String"/>
+          <Rulekey key="InputColumnDataType" value="STRING"/>
+          <Rulekey key="InputColumnOriginalTypePattern" value=""/>
+          <Rulekey key="ColumnIndex" value=""/>
+        </ruleRecords>
+        <ruleParameterMap key="RuleID" value="faae1497-4a0f-4eb6-a7ff-eb81cf8d801a"/>
+        <ruleParameterMap key="RuleName" value="WARNING - Inaccurate Beneficiary Authority V2"/>
+        <ruleParameterMap key="SemanticTypeVersion"/>
+        <ruleParameterMap key="MatcherID" value="_cqtQAKlGEfC6OIVjhQdNtA"/>
       </dqRuleMatchers>
     </nodeData>
   </node>
@@ -1185,7 +1209,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="840" posY="1640">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="840" posY="1680">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_11" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MCQ74KZ5EfCaCMprC97fOA" show="false"/>
@@ -1274,7 +1298,7 @@
       <column comment="" key="false" length="255" name="issue_url" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="255" name="INVALID_STATUS" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="2147483647" name="INVALID_STATUS" nullable="true" precision="0" sourceType="TEXT" type="id_String" originalLength="2147483647" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="dg_jira_issues_flattened" name="REJECT">
       <column comment="" key="false" length="10" name="issue_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
@@ -1292,7 +1316,7 @@
       <column comment="" key="false" length="255" name="issue_url" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column key="false" length="255" name="INVALID_STATUS" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="2147483647" name="INVALID_STATUS" nullable="true" precision="0" sourceType="TEXT" type="id_String" originalLength="2147483647" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
