@@ -102,6 +102,10 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -226,5 +230,28 @@
     "id" : "_IrVrABS7EfCLba_D1CSyYw",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pzE90KktEfC6OIVjhQdNtA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - dg_jira_issues_flattened",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]

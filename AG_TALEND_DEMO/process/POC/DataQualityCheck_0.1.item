@@ -929,16 +929,6 @@
   </node>
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="-80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputExcel" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputExcel" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_9PlKsKZ4EfCaCMprC97fOA" show="false"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
@@ -1075,15 +1065,6 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="-80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlOutput" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlOutput" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MCQ74KZ5EfCaCMprC97fOA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -1220,16 +1201,6 @@
   </node>
   <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_3" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlInput" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlInput" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MCQ74KZ5EfCaCMprC97fOA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -1245,7 +1216,7 @@
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select&#xD;&#xA;jir.*,&#xD;&#xA;split_part(cast(json_array_elements(\&quot;INVALID_STATUS\&quot;::json-> 0->'executionResults')->>'ruleName' as text), ' - ', 1)  as criticity,&#xD;&#xA;split_part(cast(json_array_elements(\&quot;INVALID_STATUS\&quot;::json-> 0->'executionResults')->>'ruleName' as text), ' - ', 2)  as ruleName,&#xD;&#xA;json_array_elements(\&quot;INVALID_STATUS\&quot;::json-> 0->'executionResults')->>'status' as status_rules,&#xD;&#xA;json_array_elements(\&quot;INVALID_STATUS\&quot;::json-> 0->'executionResults')->>'inputColumn' as inputColumn&#xD;&#xA;from public.jira_issues_rejected jir&#xD;&#xA;order by id;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
@@ -1321,15 +1292,6 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_5" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tPostgresqlOutput" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/PostgreSQL" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tPostgresqlOutput" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_MCQ74KZ5EfCaCMprC97fOA" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
