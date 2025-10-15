@@ -426,13 +426,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.3.0.20&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DG_Reform&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Rn80Ytt2Oe/8JFjQOQSdpAwCeFnA/h1SveP/XZA+YhH+zDcg"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YedEIVdTLYZGCyY87rzvgHadk1aNzFcSzSSBXe2sFkkC2PBsszuRNSM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dg_jira_fields&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -520,13 +520,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.3.0.20&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DG_Reform&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iHrir2kQn9mL7FTc3wo7nu69VnTMbj0lPxpkJqsFTov3Xl+D"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bQMJLOgLgLcFzLAwDmu3+/7/bDWvBAqXqfqqh7KKA3cSEZPY8qPsePU="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -564,13 +564,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.3.0.20&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DG_Reform&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hDrLyLbDNN2XLRluWNKh7NWjoF1DilG5/B6pvnXGGXL8ZHi2"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qpjwcuf3/yVE2MHzndSHhowIHXmfHWrw0IAXNLDToBvkmBebY8P4L4I="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dg_jira_fields_flattened&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -788,13 +788,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.3.0.20&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;DG_Reform&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u41YKHKAsqqHGYcXfmVV67UWszAlluEiydcbtX9VhU3/VRQZ"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Z13iJJ88Zvw1EKi65jVD6sQCJ4e+xFy/7mW1JKoUzGcon92fpn6cq2g="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dg_jira_issues&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -880,14 +880,14 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRESTClient_2" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tDBInput_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
   <connection connectorName="RESPONSE" label="row4" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tExtractJSONFields_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRESTClient_2" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_2" target="tDBInput_1">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tExtractJSONFields_3" offsetLabelX="0" offsetLabelY="0" source="tExtractJSONFields_3" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
