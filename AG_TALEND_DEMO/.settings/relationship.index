@@ -33,6 +33,44 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_HI1-gJ1oEfCS85_b79BCJA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_9PlKsKZ4EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9PlKsKZ4EfCaCMprC97fOA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_stg",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_IM-DUCUqEfCQp6Z6HjOwlA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_TObksB0eEfCQdoW9Wt-0RQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_KH33wPDyEe65l9cyIqRHKQ",
     "version" : "0.1",
     "type" : "job"
@@ -49,6 +87,21 @@
     "id" : "_tvRRMPD2Ee65l9cyIqRHKQ - ActivityEvent",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_MjQmQKLuEfC2-_z7ve56dw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -106,17 +159,6 @@
     "id" : "_9sNWUPG3Ee6Xoa8hcArnXg - metadata",
     "version" : "Latest",
     "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_ZPy0QBSZEfC5GcznLM80yw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_cpEc4B1PEfCglKTOXDL01Q",
-    "version" : "Latest",
-    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -184,5 +226,28 @@
     "id" : "_IrVrABS7EfCLba_D1CSyYw",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pzE90KktEfC6OIVjhQdNtA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - dg_jira_issues_flattened",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
