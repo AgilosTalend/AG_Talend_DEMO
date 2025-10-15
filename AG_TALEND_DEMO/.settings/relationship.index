@@ -1,5 +1,43 @@
 [ {
   "baseItem" : {
+    "id" : "_-YWSEKnEEfCqXpNEsh9owA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - dg_jira_issues_flattened",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_-YWSEKnEEfCqXpNEsh9owA",
+    "version" : "0.2",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_7KFpoPDMEe65l9cyIqRHKQ",
     "version" : "0.1",
     "type" : "job"
@@ -207,6 +245,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_g3FXIKnFEfCqXpNEsh9owA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "AG_TALEND_DEMO:_-YWSEKnEEfCqXpNEsh9owA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "AG_TALEND_DEMO:_pzE90KktEfC6OIVjhQdNtA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_lx1lkPWhEe60ObwtF_rmXg",
     "version" : "0.1",
     "type" : "job"
@@ -235,6 +288,29 @@
   "baseItem" : {
     "id" : "_pzE90KktEfC6OIVjhQdNtA",
     "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
+    "id" : "_MCQ74KZ5EfCaCMprC97fOA - dg_jira_issues_flattened",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pzE90KktEfC6OIVjhQdNtA",
+    "version" : "0.2",
     "type" : "job"
   },
   "relatedItems" : [ {
