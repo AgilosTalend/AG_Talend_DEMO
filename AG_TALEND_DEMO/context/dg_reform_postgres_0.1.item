@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_Z_dhwKn2EfCHjLevOaAbcw" confirmationNeeded="false" hide="false" name="agilos">
+    <contextParameter xmi:id="_Z_eI0Kn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Password" prompt="dg_reform_postgres_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:yY/zVtngbSerKIPaXgExTI5STWRVyDQTRIuU+6f0ar9T+mnDtllt"/>
+    <contextParameter xmi:id="_Z_eI0an2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Server" prompt="dg_reform_postgres_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.3.0.20"/>
+    <contextParameter xmi:id="_Z_eI0qn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Port" prompt="dg_reform_postgres_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_Z_eI06n2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Database" prompt="dg_reform_postgres_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DG_Reform"/>
+    <contextParameter xmi:id="_Z_eI1Kn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_AdditionalParams" prompt="dg_reform_postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_Z_eI1an2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Login" prompt="dg_reform_postgres_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_Z_eI1qn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Schema" prompt="dg_reform_postgres_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_oa3bYKn2EfCHjLevOaAbcw" confirmationNeeded="false" hide="false" name="docker">
+    <contextParameter xmi:id="_oa3bYan2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Password" prompt="dg_reform_postgres_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Te15P0DfZHzP4ULMNFxMGDZtdntksMxWwNJyu2LlkB2PKA=="/>
+    <contextParameter xmi:id="_oa3bYqn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Server" prompt="dg_reform_postgres_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+    <contextParameter xmi:id="_oa3bY6n2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Port" prompt="dg_reform_postgres_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+    <contextParameter xmi:id="_oa3bZKn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Database" prompt="dg_reform_postgres_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_oa3bZan2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_AdditionalParams" prompt="dg_reform_postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_oa3bZqn2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Login" prompt="dg_reform_postgres_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+    <contextParameter xmi:id="_oa3bZ6n2EfCHjLevOaAbcw" comment="" name="dg_reform_postgres_Schema" prompt="dg_reform_postgres_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="public"/>
+  </talendfile:ContextType>
+</xmi:XMI>

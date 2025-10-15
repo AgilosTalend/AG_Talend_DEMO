@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dqrulemodel="http://www.talend.org/dqrulemodel" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" name="dg_reform_postgres_Password" prompt="dg_reform_postgres_Password?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_Password" value="enc:system.encryption.key.v1:lXun8SfYfQN6qa6xED7tseC78BpnjtJDLenEmKDtIcCRZQ==" internalId="_eUUCIKn2EfCHjLevOaAbcw"/>
+    <contextParameter comment="" name="dg_reform_postgres_Server" prompt="dg_reform_postgres_Server?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_String" value="localhost" internalId="_eUUCIan2EfCHjLevOaAbcw"/>
+    <contextParameter comment="" name="dg_reform_postgres_Port" prompt="dg_reform_postgres_Port?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_String" value="5432" internalId="_eUUCIqn2EfCHjLevOaAbcw"/>
+    <contextParameter comment="" name="dg_reform_postgres_Database" prompt="dg_reform_postgres_Database?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_String" value="postgres" internalId="_eUUCI6n2EfCHjLevOaAbcw"/>
+    <contextParameter comment="" name="dg_reform_postgres_AdditionalParams" prompt="dg_reform_postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_String" value="" internalId="_eUUCJKn2EfCHjLevOaAbcw"/>
+    <contextParameter comment="" name="dg_reform_postgres_Login" prompt="dg_reform_postgres_Login?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_String" value="postgres" internalId="_eUUCJan2EfCHjLevOaAbcw"/>
+    <contextParameter comment="" name="dg_reform_postgres_Schema" prompt="dg_reform_postgres_Schema?" promptNeeded="false" repositoryContextId="_Z_Km0Kn2EfCHjLevOaAbcw" type="id_String" value="public" internalId="_eUUCJqn2EfCHjLevOaAbcw"/>
+  </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Warn" show="false"/>
@@ -107,13 +115,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VaeDfZOqqALmdNLWIP6Cz3KGhMwN4gwNcocz0Wxi6UGm48Ny"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:o2/SphxZJUmQJ8DXenGUczZtMQ/mcvr+lkt6cp7vWaIkiL0p/h+5F/H7yen/gNo7lG8ceiFD/QAThvRRY+3h"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_issues_stg&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -124,7 +132,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
@@ -183,13 +191,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gUHf3EuR6jdagTOWUlbhqS+fkRwEE062sRNUt0ueSf0lSBsx"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U5r0MHbgsxn1b9ZXTmI65ihx7LxQiA+JMBsKKjHw+hkXnLEn943VWU3Sb+gtrWRKnKNWdvXBGnX8zHUoDUyy"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_issues&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -205,7 +213,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -378,13 +386,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kTrlIJaA0NW20ckvh+3CVe5VK0NI1XAeFZ9W1847OKga4pXe"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UrrHRoJQd3TX5T278q03lAYL7/WxVHUxrZIP4QEKsrE3zSTc4LhMYgbPgGEAeu9OtvlGrBnnQaUladmPrigL"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_issues&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -395,7 +403,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
@@ -608,13 +616,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:w5qb9cylpjouTbEODh7TaQKHl04jKQXdgCLbyu9A7QTo2hIe"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VWc43xfKBN1uTP+Mdk89LLWFaPPc7IGw9KZc8HPpuhs+i1MzjI7noOEiUqHh5eE7/TVDMN0upmWiFDz6Du1r"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_issues_main&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -628,7 +636,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -749,13 +757,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:i0Iv4u42p7MhFuHJ13gv37w7GL5UqMasBVOsofGSyhsPCLPZ"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0ME/LudN8U639dYOKFWwpr6rKFCyN70w/ipZA9hO6krQpEPPEW7cPSp+I1a72rI3VCYBWjKHJLQNLHSmSDEO"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_issues_rejected&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -769,7 +777,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1070,13 +1078,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XWx53L9lKc61NkqarTpuQ2i00S1TD21BEvf8Up/ZFS4DqHCL"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:w5p8IE8+vWjbL9mqg9hkLhd0lZwkT6dJEMoKyeFb7eMcljau40oBPQVJOPSi6xwnBPywB/SdP+VhziWmRNcU"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_issues_stg&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1092,7 +1100,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -1206,13 +1214,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TyZ5dhSTfC70HcFe/lzBhWM5lIvIKgcvcNw6wOwcKI7PiPNu"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZNp8C06Qk2dgo+GLrWh53sZZ8iGoi3UO7crtT79i0UgF1uxL9O+RrwJbG0OKxjlX0lvzCgi8Wd8GDvDh3TkK"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_MCQ74KZ5EfCaCMprC97fOA - jira_issues_final" show="false"/>
@@ -1223,7 +1231,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
@@ -1297,13 +1305,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.dg_reform_postgres_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.dg_reform_postgres_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.dg_reform_postgres_Database"/>
     <elementParameter field="TEXT" name="TYPE" value="POSTGRESQL" show="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;postgres&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kfLZsBdDQkBgu362RQC/cwlhSz+bytSoISV+sPeiv6Ibqy70"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.dg_reform_postgres_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.dg_reform_postgres_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iDOW4NxDuJ9NwUB5CYmfQP3oqV67aZAzcYh2AxqLqbjeptHpeo6tPjAHIdZI0UjFo/HuO1TmdlfqySjXXjov"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;jira_final_issues&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -1317,7 +1325,7 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="postgres_id" show="false"/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.dg_reform_postgres_AdditionalParams"/>
     <elementParameter field="CHECK" name="SAVE_POINT" value="false" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>

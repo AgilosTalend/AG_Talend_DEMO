@@ -1,0 +1,29 @@
+{
+  "itemId" : "_MCQ74KZ5EfCaCMprC97fOA",
+  "contextList" : [ {
+    "contextName" : "docker",
+    "repoId" : "_Z_Km0Kn2EfCHjLevOaAbcw",
+    "parameterList" : [ {
+      "id" : "_oa3bYan2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_Password"
+    }, {
+      "id" : "_oa3bYqn2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_Server"
+    }, {
+      "id" : "_oa3bY6n2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_Port"
+    }, {
+      "id" : "_oa3bZKn2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_Database"
+    }, {
+      "id" : "_oa3bZan2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_AdditionalParams"
+    }, {
+      "id" : "_oa3bZqn2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_Login"
+    }, {
+      "id" : "_oa3bZ6n2EfCHjLevOaAbcw",
+      "name" : "dg_reform_postgres_Schema"
+    } ]
+  } ]
+}
